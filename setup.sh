@@ -4,7 +4,7 @@ OH_MY_ZSH_DIR=~/.oh-my-zsh
 HOMEBREW_DIR=~/.homebrew
 
 # Set the shell to Z shell
-chsh -s /usr/bin/zsh
+chsh -s $(which zsh)
 echo "Shell is set to $SHELL"
 
 # Clone dotfiles and oh-my-zsh

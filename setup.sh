@@ -41,7 +41,10 @@ sudo gem install git-up
 
 echo "Installing Homebrew"
 mkdir ~/.homebrew && curl -L https://github.com/Homebrew/homebrew/tarball/master | tar xz --strip 1 -C ~/.homebrew
-ln -s ~/.homebrew/bin/brew /usr/local/bin/brew
+if [ -e "/usr/local/bin/brew" ] 
+sudo rm -f /usr/local/bin/brew
+fi
+sudo ln -s ~/.homebrew/bin/brew /usr/local/bin/brew
 
 echo "Installing git-extras"
 

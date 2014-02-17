@@ -16,7 +16,7 @@ else
 fi
 
 if [ -d "$OH_MY_ZSH_DIR" ]; then
-    cd $OH_MY_ZSH && git pull --rebase
+    cd $OH_MY_ZSH_DIR && git pull --rebase
 else
     echo "Cloning Oh My Zsh"
     git clone git://github.com/robbyrussell/oh-my-zsh.git $OH_MY_ZSH_DIR

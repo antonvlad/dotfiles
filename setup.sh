@@ -47,8 +47,7 @@ fi
 sudo ln -s ~/.homebrew/bin/brew /usr/local/bin/brew
 
 echo "Installing git-extras"
-
-/usr/local/bin/brew install git-extras
+$(cd /tmp && git clone --depth 1 https://github.com/visionmedia/git-extras.git && cd git-extras && sudo make install)
 
 # TODO: 
 # Pull source

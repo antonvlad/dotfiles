@@ -12,7 +12,7 @@ if [ -d "$DOTFILES_DIR" ]; then
     cd $DOTFILES_DIR && git pull --rebase
 else
     echo "Cloning Dotfiles"
-    git clone git://git@gitlab.sd.apple.com:avladimirov/dotfiles.git $DOTFILES_DIR
+    git clone git@gitlab.sd.apple.com:avladimirov/dotfiles.git $DOTFILES_DIR
 fi
 
 if [ -d "$OH_MY_ZSH_DIR" ]; then

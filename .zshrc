@@ -24,6 +24,10 @@ alias zconfig="emacs ~/.zshrc"
 alias board="rbt"
 alias boardp="rbt post"
 
+setopt correctall
+# setopt cshjunkiequotes
+setopt histignoredups
+setopt autocd
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 

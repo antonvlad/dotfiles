@@ -23,11 +23,13 @@ alias ls="ls -la"
 alias zconfig="emacs ~/.zshrc"
 alias board="rbt"
 alias boardp="rbt post"
+alias htab="split_tab"
+alias vtab="vsplit_tab"
 
-setopt correctall
+#setopt correctall
 # setopt cshjunkiequotes
-setopt histignoredups
-setopt autocd
+#setopt histignoredups
+#setopt autocd
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -75,7 +77,7 @@ else
 fi
 export PYTHONPATH
 
-export PATH="/Applications/Araxis Merge.app/Contents/Utilities:${HOME}/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+export PATH="/Applications/Araxis Merge.app/Contents/Utilities:${HOME}/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:${PATH}"
 export RADAR_USER=avladimirov
 
 # export MANPATH="/usr/local/man:$MANPATH"

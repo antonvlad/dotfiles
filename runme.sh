@@ -1,10 +1,14 @@
 #!/bin/sh
 
-# First ask for the token
-echo "Enter user token for GitLab:"
-read token
+TOKEN_FILE=~/.gitlab_token
 
-# TODO: add actual authentication here 
-# TODO: read token from keychain or .token file
+if [ ! -f "$TOKEN_FILE" ]; then
+# we don't have an existing token 
+    echo -n "Enter GitLab password for avladimirov:"
+    read -s password
+    token=$(curl --data "login=avladimirov&password=$password" "https://gitlab.sd.apple.com/api/v3/session" | python -c "import json, sys; print json.load(sys.stdin)['private_token']")
+    echo $token > $TOKEN_FILE
+fi
 
-curl -L --header "PRIVATE-TOKEN : $token" "https://gitlab.sd.apple.com/api/v3/projects/6355/repository/blobs/master?filepath=setup.sh" | sh
+token=$(cat $TOKEN_FILE)
+curl -L --header "PRIVATE-TOKEN:$token" "https://gitlab.sd.apple.com/api/v3/projects/6355/repository/blobs/master?filepath=setup.sh" | sh

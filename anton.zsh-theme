@@ -29,7 +29,7 @@ _collapsed_wd() {
 ")
 } 
 
-PROMPT='%{$fg[blue]%}[$(_collapsed_wd)] ⨠  %{$reset_color%}'
+PROMPT='%{$fg[cyan]%}[$(_collapsed_wd)] ⨠  %{$reset_color%}'
 
 # The right-hand prompt
 

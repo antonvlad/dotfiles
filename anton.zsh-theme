@@ -114,3 +114,4 @@ function git_time_since_commit() {
         fi
     fi
 }
+

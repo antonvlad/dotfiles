@@ -25,7 +25,7 @@ alias board="rbt"
 alias boardp="rbt post"
 alias htab="split_tab"
 alias vtab="vsplit_tab"
-
+alias gsave="git push --set-upstream desktop `git rev-parse --abbrev-ref HEAD`"
 #setopt correctall
 # setopt cshjunkiequotes
 #setopt histignoredups

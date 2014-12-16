@@ -80,6 +80,7 @@ export PYTHONPATH
 export PATH="/Applications/Araxis Merge.app/Contents/Utilities:${HOME}/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:${HOME}/Library/Python/2.7/bin:${HOME}/phabricator/arcanist/bin:${PATH}"
 export RADAR_USER=avladimirov
 
+export EDITOR=emacs
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions

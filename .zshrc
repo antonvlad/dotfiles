@@ -64,7 +64,7 @@ alias gsave="git push --set-upstream desktop `git rev-parse --abbrev-ref HEAD`"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git brew catimge encode64 git-extras osx rand-quote screen web-search)
+plugins=(git brew catimge encode64 git-extras osx rand-quote screen web-search zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -77,7 +77,7 @@ else
 fi
 export PYTHONPATH
 
-export PATH="/Applications/Araxis Merge.app/Contents/Utilities:${HOME}/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:${PATH}"
+export PATH="/Applications/Araxis Merge.app/Contents/Utilities:${HOME}/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:${HOME}/Library/Python/2.7/bin:${HOME}/phabricator/arcanist/bin:${PATH}"
 export RADAR_USER=avladimirov
 
 # export MANPATH="/usr/local/man:$MANPATH"

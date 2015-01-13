@@ -96,3 +96,5 @@ export EDITOR=emacs
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+source /opt/boxen/env.sh
+

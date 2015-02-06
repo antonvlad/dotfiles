@@ -1,0 +1,32 @@
+[diff]
+	tool = araxis
+[difftool "diffmerge"]
+	cmd = diffmerge \"$LOCAL\" \"$REMOTE\"
+[merge]
+ 	tool = araxis
+[mergetool "diffmerge"]
+	cmd = diffmerge --merge --result=\"$MERGED\"\n  \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+	trustexitcode = false
+[user]
+	name = Anton Vladimirov
+	email = avladimirov@apple.com
+[core]
+	excludesfile = /Volumes/Data/avladimirov/.gitignore_global
+	editor = emacs
+[difftool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/araxiscompare-w.sh -2 \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/araxisgitmerge-w.sh \"$REMOTE\" \"$BASE\" \"$LOCAL\" \"$MERGED\"
+	trustExitCode = true
+[color]
+	ui = true
+[push]
+	default = upstream
+[alias]
+	co = checkout
+	br = branch -vv
+	pr = pull --rebase origin
+	st = status
+	message = log -1 --author=avladimirov --name-status
+

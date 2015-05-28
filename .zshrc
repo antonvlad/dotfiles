@@ -77,7 +77,7 @@ else
 fi
 export PYTHONPATH
 
-export PATH="/Applications/Araxis Merge.app/Contents/Utilities:${HOME}/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:${HOME}/Library/Python/2.7/bin:${HOME}/phabricator/arcanist/bin:${PATH}"
+export PATH="/Applications/Araxis Merge.app/Contents/Utilities:${HOME}/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:${HOME}/Library/Python/2.7/bin:${HOME}/phabricator/arcanist/bin:${HOME}/.gem/ruby/2.0.0/bin:${PATH}"
 export RADAR_USER=avladimirov
 
 export EDITOR=emacs
@@ -96,5 +96,4 @@ export EDITOR=emacs
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-source /opt/boxen/env.sh
 

@@ -26,6 +26,7 @@ alias boardp="rbt post"
 alias htab="split_tab"
 alias vtab="vsplit_tab"
 alias gsave="git push --set-upstream desktop `git rev-parse --abbrev-ref HEAD`"
+#alias cowthink="cowsay"
 #setopt correctall
 # setopt cshjunkiequotes
 #setopt histignoredups
@@ -49,12 +50,12 @@ alias gsave="git push --set-upstream desktop `git rev-parse --abbrev-ref HEAD`"
 # DISABLE_CORRECTION="true"
 
 # Uncomment following line if you want red dots to be displayed while waiting for completion
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment following line if you want to disable marking untracked files under
 # VCS as dirty. This makes repository status check for large repositories much,
 # much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
+DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Uncomment following line if you want to  shown in the command execution time stamp 
 # in the history command output. The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|
@@ -64,7 +65,7 @@ alias gsave="git push --set-upstream desktop `git rev-parse --abbrev-ref HEAD`"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git brew catimge encode64 git-extras osx rand-quote screen web-search zsh-syntax-highlighting)
+plugins=(brew catimg chucknorris gem git git-extras encode64 osx rand-quote screen sudo web-search zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -77,7 +78,7 @@ else
 fi
 export PYTHONPATH
 
-export PATH="/Applications/Araxis Merge.app/Contents/Utilities:${HOME}/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:${HOME}/Library/Python/2.7/bin:${HOME}/phabricator/arcanist/bin:${HOME}/.gem/ruby/2.0.0/bin:${PATH}"
+export PATH="/Applications/Araxis Merge.app/Contents/Utilities:${HOME}/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:${HOME}/Library/Python/2.7/bin:${HOME}/phabricator/arcanist/bin:${HOME}/.gem/ruby/2.0.0/bin:/opt/local/bin:${PATH}"
 export RADAR_USER=avladimirov
 
 export EDITOR=emacs
@@ -96,4 +97,5 @@ export EDITOR=emacs
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+chuck_cow
 

@@ -78,7 +78,8 @@ else
 fi
 export PYTHONPATH
 
-export PATH="/Applications/Araxis Merge.app/Contents/Utilities:${HOME}/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:${HOME}/Library/Python/2.7/bin:${HOME}/phabricator/arcanist/bin:${HOME}/.gem/ruby/2.0.0/bin:/opt/local/bin:${PATH}"
+export HASTE_SERVER="https://pastebin.apple.com"
+export PATH="/Applications/Araxis Merge.app/Contents/Utilities:${HOME}/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:${HOME}/Library/Python/2.7/bin:${HOME}/phabricator/arcanist/bin:${HOME}/.gem/ruby/2.0.0/bin:/opt/local/bin:/Applications/CMake.app/Contents/bin:${PATH}"
 export RADAR_USER=avladimirov
 
 export EDITOR=emacs

@@ -11,13 +11,13 @@
 	name = Anton Vladimirov
 	email = avladimirov@apple.com
 [core]
-	excludesfile = /Volumes/Data/avladimirov/.gitignore_global
+	excludesfile = /Users/avladimirov/.gitignore_global
 	editor = emacs
 [difftool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/araxiscompare-w.sh -2 \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/araxisgitmerge-w.sh \"$REMOTE\" \"$BASE\" \"$LOCAL\" \"$MERGED\"
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [color]
 	ui = true

@@ -14,7 +14,7 @@
 	excludesfile = /Users/avladimirov/.gitignore_global
 	editor = emacs
 [difftool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/araxiscompare-w.sh -2 \"$LOCAL\" \"$REMOTE\"
+	cmd = /Volumes/Cab/Applications/SourceTree.app/Contents/Resources/araxiscompare-w.sh -2 \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
@@ -29,4 +29,3 @@
 	pr = pull --rebase origin
 	st = status
 	message = log -1 --author=avladimirov --name-status
-

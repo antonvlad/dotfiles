@@ -3,31 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>DVTConsoleDebuggerInputTextColor</key>
-	<string>0 0 0 1</string>
+	<string>0.746134 0.746274 0.7461 1</string>
 	<key>DVTConsoleDebuggerInputTextFont</key>
-	<string>Hasklig-Semibold - 12.0</string>
+	<string>SourceCodePro-Bold - 11.0</string>
 	<key>DVTConsoleDebuggerOutputTextColor</key>
-	<string>0 0 0 1</string>
+	<string>0.746134 0.746274 0.7461 1</string>
 	<key>DVTConsoleDebuggerOutputTextFont</key>
-	<string>Hasklig-Regular - 12.0</string>
+	<string>SourceCodePro-Bold - 11.0</string>
 	<key>DVTConsoleDebuggerPromptTextColor</key>
 	<string>0.317071 0.437736 1 1</string>
 	<key>DVTConsoleDebuggerPromptTextFont</key>
-	<string>Hasklig-Semibold - 12.0</string>
+	<string>SourceCodePro-Bold - 11.0</string>
 	<key>DVTConsoleExectuableInputTextColor</key>
-	<string>0 0 0 1</string>
+	<string>0.746134 0.746274 0.7461 1</string>
 	<key>DVTConsoleExectuableInputTextFont</key>
-	<string>Hasklig-Regular - 12.0</string>
+	<string>SourceCodePro-Bold - 11.0</string>
 	<key>DVTConsoleExectuableOutputTextColor</key>
-	<string>0 0 0 1</string>
+	<string>0.746134 0.746274 0.7461 1</string>
 	<key>DVTConsoleExectuableOutputTextFont</key>
-	<string>Hasklig-Semibold - 12.0</string>
+	<string>SourceCodePro-Bold - 11.0</string>
 	<key>DVTConsoleTextBackgroundColor</key>
-	<string>1 0.988235 0.917647 1</string>
+	<string>0.117647 0.117647 0.117647 1</string>
 	<key>DVTConsoleTextInsertionPointColor</key>
-	<string>0 0 0 1</string>
+	<string>0.539157 0.539258 0.539132 1</string>
 	<key>DVTConsoleTextSelectionColor</key>
-	<string>0.968627 0.862745 0.639216 1</string>
+	<string>0.72014 0.964593 0.929708 0.182764</string>
 	<key>DVTCursor</key>
 	<integer>2</integer>
 	<key>DVTDebuggerInstructionPointerColor</key>
@@ -39,37 +39,37 @@
 	<key>DVTMarkupTextBorderColor</key>
 	<string>0.883035 0.872364 0.792773 1</string>
 	<key>DVTMarkupTextCodeFont</key>
-	<string>SFMono-Regular - 10.0</string>
+	<string>SFMono-Regular - 9.0</string>
 	<key>DVTMarkupTextEmphasisColor</key>
 	<string>0 0 0 1</string>
 	<key>DVTMarkupTextEmphasisFont</key>
-	<string>.AppleSystemUIFontItalic - 10.0</string>
+	<string>.AppleSystemUIFontItalic - 9.0</string>
 	<key>DVTMarkupTextInlineCodeColor</key>
 	<string>0 0 0 0.7</string>
 	<key>DVTMarkupTextLinkColor</key>
 	<string>0.298039 0.298039 0.298039 1</string>
 	<key>DVTMarkupTextLinkFont</key>
-	<string>.AppleSystemUIFont - 10.0</string>
+	<string>.AppleSystemUIFont - 9.0</string>
 	<key>DVTMarkupTextNormalColor</key>
 	<string>0 0 0 1</string>
 	<key>DVTMarkupTextNormalFont</key>
-	<string>.AppleSystemUIFont - 10.0</string>
+	<string>.AppleSystemUIFont - 9.0</string>
 	<key>DVTMarkupTextOtherHeadingColor</key>
 	<string>0 0 0 0.5</string>
 	<key>DVTMarkupTextOtherHeadingFont</key>
-	<string>.AppleSystemUIFont - 14.0</string>
+	<string>.AppleSystemUIFont - 13.0</string>
 	<key>DVTMarkupTextPrimaryHeadingColor</key>
 	<string>0 0 0 1</string>
 	<key>DVTMarkupTextPrimaryHeadingFont</key>
-	<string>.AppleSystemUIFont - 24.0</string>
+	<string>.AppleSystemUIFont - 23.0</string>
 	<key>DVTMarkupTextSecondaryHeadingColor</key>
 	<string>0 0 0 1</string>
 	<key>DVTMarkupTextSecondaryHeadingFont</key>
-	<string>.AppleSystemUIFont - 18.0</string>
+	<string>.AppleSystemUIFont - 17.0</string>
 	<key>DVTMarkupTextStrongColor</key>
 	<string>0 0 0 1</string>
 	<key>DVTMarkupTextStrongFont</key>
-	<string>.AppleSystemUIFontBold - 10.0</string>
+	<string>.AppleSystemUIFontBold - 9.0</string>
 	<key>DVTScrollbarMarkerAnalyzerColor</key>
 	<string>0.403922 0.372549 1 1</string>
 	<key>DVTScrollbarMarkerBreakpointColor</key>
@@ -85,114 +85,114 @@
 	<key>DVTScrollbarMarkerWarningColor</key>
 	<string>0.937255 0.717647 0.34902 1</string>
 	<key>DVTSourceTextBackground</key>
-	<string>0.999813 0.987731 0.897614 1</string>
+	<string>0.117647 0.117647 0.117647 1</string>
 	<key>DVTSourceTextBlockDimBackgroundColor</key>
 	<string>0.5 0.5 0.5 1</string>
 	<key>DVTSourceTextCurrentLineHighlightColor</key>
-	<string>0.992016 0.956484 0.833014 1</string>
+	<string>0.588235 0.72549 0.784314 0.130057</string>
 	<key>DVTSourceTextInsertionPointColor</key>
-	<string>0 0 0 1</string>
+	<string>0.539157 0.539258 0.539132 1</string>
 	<key>DVTSourceTextInvisiblesColor</key>
-	<string>0.5 0.5 0.5 1</string>
+	<string>0.698566 0.694582 0.755901 1</string>
 	<key>DVTSourceTextSelectionColor</key>
-	<string>0.968627 0.862745 0.639216 1</string>
+	<string>0.329921 0.33234 0.289423 0.599342</string>
 	<key>DVTSourceTextSyntaxColors</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
-		<string>0.512 0.423 0.157 1</string>
+		<string>0.709035 0.581123 0.215574 1</string>
 		<key>xcode.syntax.character</key>
-		<string>0.11 0 0.81 1</string>
+		<string>0.833367 0.297242 0.309049 1</string>
 		<key>xcode.syntax.comment</key>
-		<string>0 0.456 0 1</string>
+		<string>0 0.616536 0 1</string>
 		<key>xcode.syntax.comment.doc</key>
-		<string>0 0.456 0 1</string>
+		<string>0 0.616536 0 1</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>0.008 0.239 0.063 1</string>
+		<string>0.484652 0.608161 0.400345 1</string>
 		<key>xcode.syntax.identifier.class</key>
-		<string>0.301619 0.564629 0.60181 1</string>
+		<string>0.650589 0.243919 0.757791 1</string>
 		<key>xcode.syntax.identifier.class.system</key>
-		<string>0.284652 0.0654452 0.528881 1</string>
+		<string>0.650589 0.243919 0.757791 1</string>
 		<key>xcode.syntax.identifier.constant</key>
-		<string>0.115256 0.216453 0.228712 1</string>
+		<string>0.531514 0.286501 0.346261 1</string>
 		<key>xcode.syntax.identifier.constant.system</key>
-		<string>0.284652 0.0654452 0.528881 1</string>
+		<string>0.531514 0.286501 0.346261 1</string>
 		<key>xcode.syntax.identifier.function</key>
-		<string>0.115256 0.216453 0.228712 0.75</string>
+		<string>0.405259 0.601475 0.63428 1</string>
 		<key>xcode.syntax.identifier.function.system</key>
-		<string>0.284652 0.0654452 0.528881 0.75</string>
+		<string>0.405259 0.601475 0.63428 1</string>
 		<key>xcode.syntax.identifier.macro</key>
 		<string>0.391 0.22 0.125 1</string>
 		<key>xcode.syntax.identifier.macro.system</key>
 		<string>0.391 0.22 0.125 1</string>
 		<key>xcode.syntax.identifier.type</key>
-		<string>0.316543 0.592567 0.631587 1</string>
+		<string>0.650589 0.243919 0.757791 1</string>
 		<key>xcode.syntax.identifier.type.system</key>
-		<string>0.284652 0.0654452 0.528881 1</string>
+		<string>0.650589 0.243919 0.757791 1</string>
 		<key>xcode.syntax.identifier.variable</key>
-		<string>0 0 0.501961 1</string>
+		<string>0.669013 0.650207 0.305014 1</string>
 		<key>xcode.syntax.identifier.variable.system</key>
-		<string>0.284652 0.0654452 0.528881 1</string>
+		<string>0.669013 0.650207 0.305014 1</string>
 		<key>xcode.syntax.keyword</key>
-		<string>0 0.25098 0.501961 1</string>
+		<string>0.321945 0.444355 0.924676 1</string>
 		<key>xcode.syntax.number</key>
-		<string>0.11 0 0.81 1</string>
+		<string>0.833367 0.297242 0.309049 1</string>
 		<key>xcode.syntax.plain</key>
-		<string>0 0 0 1</string>
+		<string>0.746134 0.746274 0.7461 1</string>
 		<key>xcode.syntax.preprocessor</key>
-		<string>0.391 0.22 0.125 1</string>
+		<string>0.6875 0.373968 0.20894 1</string>
 		<key>xcode.syntax.string</key>
-		<string>0.298039 0.298039 0.298039 0.75</string>
+		<string>0.518546 0.514581 0.521524 1</string>
 		<key>xcode.syntax.url</key>
-		<string>0.298039 0.298039 0.298039 1</string>
+		<string>0.605328 0.600652 0.608841 1</string>
 	</dict>
 	<key>DVTSourceTextSyntaxFonts</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
-		<string>Hasklig-Regular - 12.0</string>
+		<string>SourceCodePro-Regular - 11.0</string>
 		<key>xcode.syntax.character</key>
-		<string>Hasklig-Regular - 12.0</string>
+		<string>SourceCodePro-Regular - 11.0</string>
 		<key>xcode.syntax.comment</key>
-		<string>Hasklig-Regular - 12.0</string>
+		<string>SourceCodePro-Regular - 11.0</string>
 		<key>xcode.syntax.comment.doc</key>
-		<string>Hasklig-Regular - 12.0</string>
+		<string>SourceCodePro-It - 11.0</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>Hasklig-Regular - 12.0</string>
+		<string>SourceCodePro-It - 11.0</string>
 		<key>xcode.syntax.identifier.class</key>
-		<string>Hasklig-Regular - 12.0</string>
+		<string>SourceCodePro-Regular - 11.0</string>
 		<key>xcode.syntax.identifier.class.system</key>
-		<string>Hasklig-It - 12.0</string>
+		<string>SourceCodePro-It - 11.0</string>
 		<key>xcode.syntax.identifier.constant</key>
-		<string>Hasklig-Regular - 12.0</string>
+		<string>SourceCodePro-Regular - 11.0</string>
 		<key>xcode.syntax.identifier.constant.system</key>
-		<string>Hasklig-It - 12.0</string>
+		<string>SourceCodePro-It - 11.0</string>
 		<key>xcode.syntax.identifier.function</key>
-		<string>Hasklig-Regular - 12.0</string>
+		<string>SourceCodePro-Regular - 11.0</string>
 		<key>xcode.syntax.identifier.function.system</key>
-		<string>Hasklig-It - 12.0</string>
+		<string>SourceCodePro-It - 11.0</string>
 		<key>xcode.syntax.identifier.macro</key>
-		<string>Hasklig-Regular - 12.0</string>
+		<string>SourceCodePro-Regular - 11.0</string>
 		<key>xcode.syntax.identifier.macro.system</key>
-		<string>Hasklig-It - 12.0</string>
+		<string>SourceCodePro-It - 11.0</string>
 		<key>xcode.syntax.identifier.type</key>
-		<string>Hasklig-Regular - 12.0</string>
+		<string>SourceCodePro-Regular - 11.0</string>
 		<key>xcode.syntax.identifier.type.system</key>
-		<string>Hasklig-It - 12.0</string>
+		<string>SourceCodePro-It - 11.0</string>
 		<key>xcode.syntax.identifier.variable</key>
-		<string>Hasklig-Regular - 12.0</string>
+		<string>SourceCodePro-Regular - 11.0</string>
 		<key>xcode.syntax.identifier.variable.system</key>
-		<string>Hasklig-It - 12.0</string>
+		<string>SourceCodePro-It - 11.0</string>
 		<key>xcode.syntax.keyword</key>
-		<string>Hasklig-Regular - 12.0</string>
+		<string>SourceCodePro-Bold - 11.0</string>
 		<key>xcode.syntax.number</key>
-		<string>Hasklig-Regular - 12.0</string>
+		<string>SourceCodePro-Regular - 11.0</string>
 		<key>xcode.syntax.plain</key>
-		<string>Hasklig-Regular - 12.0</string>
+		<string>SourceCodePro-Regular - 11.0</string>
 		<key>xcode.syntax.preprocessor</key>
-		<string>Hasklig-Regular - 12.0</string>
+		<string>SourceCodePro-Bold - 11.0</string>
 		<key>xcode.syntax.string</key>
-		<string>Hasklig-Regular - 12.0</string>
+		<string>SourceCodePro-Regular - 11.0</string>
 		<key>xcode.syntax.url</key>
-		<string>Hasklig-Regular - 12.0</string>
+		<string>SourceCodePro-Regular - 11.0</string>
 	</dict>
 </dict>
 </plist>

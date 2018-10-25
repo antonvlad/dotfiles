@@ -1,23 +1,20 @@
 [diff]
 	tool = araxis
-[difftool "diffmerge"]
-	cmd = diffmerge \"$LOCAL\" \"$REMOTE\"
 [merge]
  	tool = araxis
-[mergetool "diffmerge"]
-	cmd = diffmerge --merge --result=\"$MERGED\"\n  \"$LOCAL\" \"$BASE\" \"$REMOTE\"
-	trustexitcode = false
 [user]
 	name = Anton Vladimirov
 	email = antonv@apple.com
+	signkey = 63C2A7442FEDFF85A354E6A950E8FC4C55AA7CCB
+	signingkey = 63C2A7442FEDFF85A354E6A950E8FC4C55AA7CCB
 [core]
 	excludesfile = /Users/avladimirov/.gitignore_global
 	editor = code --wait
 [difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	cmd = /Applications/Sourcetree.app/Contents/Resources/araxiscompare-w.sh -2 \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Applications/Sourcetree.app/Contents/Resources/araxisgitmerge-w.sh \"$REMOTE\" \"$BASE\" \"$LOCAL\" \"$MERGED\"
 	trustExitCode = true
 [color]
 	ui = true
@@ -31,5 +28,9 @@
 	up = pull --rebase --autostash
 [commit]
 	template = /Users/avladimirov/.stCommitMsg
+[pull]
+	rebase = true
 [hub]
-	host = https://github.pie.apple.com
+	host = github.pie.apple.com
+[tig]
+	vertical-split = false

@@ -9,15 +9,15 @@
 	trustexitcode = false
 [user]
 	name = Anton Vladimirov
-	email = avladimirov@apple.com
+	email = antonv@apple.com
 [core]
 	excludesfile = /Users/avladimirov/.gitignore_global
-	editor = emacs
+	editor = code --wait
 [difftool "sourcetree"]
-	cmd = /Volumes/Cab/Applications/SourceTree.app/Contents/Resources/araxiscompare-w.sh -2 \"$LOCAL\" \"$REMOTE\"
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [color]
 	ui = true
@@ -26,6 +26,10 @@
 [alias]
 	co = checkout
 	br = branch -vv
-	pr = pull --rebase origin
 	st = status
 	message = log -1 --author=avladimirov --name-status
+	up = pull --rebase --autostash
+[commit]
+	template = /Users/avladimirov/.stCommitMsg
+[hub]
+	host = https://github.pie.apple.com

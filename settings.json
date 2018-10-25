@@ -1,0 +1,27 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 13,
+    "editor.fontFamily": "Source Code Pro, SF Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.scrollBeyondLastColumn": 0,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.gitExplorer.files.layout": "list",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "files.associations": {
+        "*.h": "objective-c"
+    },
+    "window.zoomLevel": 0,
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "git.alwaysSignOff": true,
+    "git.defaultCloneDirectory": "/source/",
+    "[git-commit]": {
+        "editor.rulers": [
+            100
+        ]
+    },
+    "editor.rulers": [
+        100
+    ]
+}

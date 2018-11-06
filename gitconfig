@@ -24,7 +24,7 @@
 	co = checkout
 	br = branch -vv
 	st = status
-	message = log -1 --author=avladimirov --name-status
+	message = log -1 --author=antonv --name-status
 	up = pull --rebase --autostash
 [commit]
 	template = /Users/avladimirov/.stCommitMsg

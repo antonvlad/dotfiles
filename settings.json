@@ -10,7 +10,9 @@
     "git.confirmSync": false,
     "git.autofetch": true,
     "files.associations": {
-        "*.h": "objective-c"
+        "*.h": "objective-c",
+        "*.m": "objective-c",
+        "*.dvticonspecs": "json"
     },
     "window.zoomLevel": 0,
     "git.alwaysShowStagedChangesResourceGroup": true,
@@ -23,5 +25,13 @@
     },
     "editor.rulers": [
         100
-    ]
+    ],
+    "sourcekit-lsp.serverPath": "/source/sourcekit-lsp/.build/debug/sourcekit-lsp",
+    "sourcekit-lsp.toolchainPath": "/Volumes/Xcode/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/",
+    "[objective-c]": {
+        
+    },
+    "gitlens.views.repositories.files.layout": "list",
+    "gitlens.mode.active": "zen",
+    "editor.multiCursorModifier": "ctrlCmd"
 }

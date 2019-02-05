@@ -26,7 +26,7 @@
 	st = status
 	message = log -1 --author=antonv --name-status
 	up = pull --rebase --autostash
-	prune-local = !git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -D
+	prune-local = !git branch -vv | grep '**/.*: gone]' | awk '{print $1}' | xargs git branch -D
 [commit]
 	template = /Users/avladimirov/.stCommitMsg
 [pull]
@@ -35,3 +35,8 @@
 	host = github.pie.apple.com
 [tig]
 	vertical-split = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
